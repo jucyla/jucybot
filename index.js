@@ -7,8 +7,7 @@ const fs = require("fs");
 
 //bot.on('ready', () => { bot.user.setGame('!aide') })
 
-bot.on("ready", () => {
-    bot.user.setStatus("online");
+bot.on('ready', () => { bot.user.setStatus('online');
 });
 
 

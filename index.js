@@ -30,6 +30,18 @@ message.channel.send('' + vaResp[Math.floor(Math.random() * 3)])
 
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("rogueff") !== -1) {
+            message.channel.send('http://rogueff.fr')
+        }
+})
+
+
+
+
+
+
+
+bot.on('message', message => {
   var input = message.content.toUpperCase();
   if (input.indexOf('REINE JUCYLA')>=0) {
  var vaResp = [' Notre reine! Jucyla FOREVER! ',' Elle est sexy Padme! ',' Quelqu\'un aurait le 06 de la reine de Naboo? ',' I\'m a princess. That\'s all. ',' Chuuut ! je solote l\'HAAT la ! ',' D�sol�e elle n\'est pas la, reviens vers 3h du matin tu auras plus de chances'];
@@ -38,14 +50,6 @@ message.channel.send('' + vaResp[Math.floor(Math.random() * 6)])
 })
 
 
-
-bot.on('message', message => {
-  var input = message.content.toUpperCase();
- if (input.indexOf('BONJOUR BB8')>=0) {
- var vaResp = [' et bonjour � tous les Delta ',' Va faire tes Strikes!!! ',' aller il est temps d aller faire ses contribs ',' Au boulot les Delta ',' je vais retourner me coucher ',' il fait trop beau pour travailer'];
-message.channel.send('Bonjour ' + message.author.username + vaResp[Math.floor(Math.random() * 5)])
-  }
-})
 
 
 

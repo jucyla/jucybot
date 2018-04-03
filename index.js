@@ -139,6 +139,17 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("lost") !== -1) {
+            message.channel.send('http://i.imgur.com/fxIGuM9.jpg')
+        }
+})
+
+
+
+
+
+
+bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("!zeta") !== -1) {
             message.channel.send('https://swgoh.gg/zeta-report/')
         }

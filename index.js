@@ -30,7 +30,7 @@ message.channel.send('' + vaResp[Math.floor(Math.random() * 3)])
 
 
 bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("rogueff") !== -1) {
+        if (message.content.toLowerCase().indexOf("siteweb") !== -1) {
             message.channel.send('http://rogueff.fr')
         }
 })

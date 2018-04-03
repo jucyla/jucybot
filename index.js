@@ -3,7 +3,10 @@ const bot = new Discord.Client()
 const fs = require("fs");
 //bot.user.setPresence({ game: { name: '!help', type: 0 } });
 //bot.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
+
+
 bot.on('ready', () => { bot.user.setGame('!aide') })
+bot.user.setPresence({ game: { name: '!aide' } });
 
 
 

@@ -1,0 +1,41 @@
+**ARENE**
+```
+$arena                              : Temps réel arène & ships, $a
+/arena      [jucyla]                : Team Arène & courbe, +more
+%arena      27                      : Chemin pour la 1ere place```
+**MODS**
+```
+/mods       ~jucyla finn            : Mods mis sur son toon
+$mod                                : import sur Crouching Rancor
+%mods       finn                    : Aide mods de Crouching Rancor```
+**TOONS**
+```
+/stats      [jucyla] finn           : Stats de son toon
+$zeta       jucyla                  : Liste zetas, d pour détails
+/has       ~jucyla rebel            : Liste faction toons & ships
+/faction    [jucyla] rebel          : Screen de la faction toons
+!jucyla                             : Lien de la collection swgoh.gg
+/need       ~jucyla shop            : Toons & Ships restant à farmer```
+**GUILDE**
+```
+$guild      d roguefrench           : Liste membres, GP temps réel
+/guild      finn                    : Liste des membres ayant le toon
+/profile    jucyla                  : Profil du joueur
+$event                              : Calendrier des events```
+**TB**
+```
+%tb         gp  ls                  : Nb max *, ds pour Dark Side
+%tb         platoon chars pao  5*   : +nuls, reverse -> +forts, ships```
+**INFOS**
+```
+;charactergear                      : Tout le matos, ou 11 par ex
+;abilities  finn                    : Capacités d'un toon
+;ships      ghost                   : Infos Ships ou pilote, ex hera```
+**DIVERS**
+```
+/add        jucyla                  : Ajoute le user pour /profile
+/adduser    @jucyla jucyla          : Relie le discord a un swgoh.gg
+$swgoh      add @jucyla 248-114-418 : Relie le discord a compte IG
+!levels                             : Classement du flood guilde
+$translate  @jucyla fr 5            : Traduit 5 derniers messages
+&whois      jucyla                  : Infos discord du joueur```

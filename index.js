@@ -125,6 +125,24 @@ bot.on('message', message => {
 })
 
 
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("!meta") !== -1) {
+            message.channel.send('https://swgoh.gg/meta-report/')
+        }
+})
+
+
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("!zeta") !== -1) {
+            message.channel.send('https://swgoh.gg/zeta-report/')
+        }
+})
+
+
+
+
+
+
 
 
 

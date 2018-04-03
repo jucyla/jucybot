@@ -9,7 +9,7 @@ const fs = require("fs");
 
 
 bot.on('ready', () => {
-    bot.user.setActivity({game: {name: '!aide', type: 0}});
+    bot.user.setPresence({game: {name: '!aide', type: 0}});
 });
 
 

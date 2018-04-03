@@ -8,8 +8,8 @@ const fs = require("fs");
 //bot.on('ready', () => { bot.user.setGame('!aide') })
 
 
-bot.on("ready", () => {
-    bot.user.setActivity({game: {name: "!aide", type: 0}});
+bot.on('ready', () => {
+    bot.user.setActivity({game: {name: '!aide', type: 0}});
 });
 
 

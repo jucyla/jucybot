@@ -5,7 +5,11 @@ const fs = require("fs");
 //bot.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
 
 
-bot.on('ready', () => { bot.user.setGame('!aide') })
+//bot.on('ready', () => { bot.user.setGame('!aide') })
+
+bot.on("ready", () => {
+    bot.user.setStatus("online");
+});
 
 
 

@@ -139,7 +139,11 @@ bot.on('message', message => {
 })
 
 
-
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("guignol") !== -1) {
+            message.channel.send('C\'est Cocisa, c\'est Cocisa, avec son chapeau noir, ses gros sourcils et son bâton, C\'est Cocisa, c\'est Cocisa nananana')
+        }
+})
 
 
 

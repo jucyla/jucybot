@@ -158,7 +158,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("bdrff") !== -1) {
-            message.channel.send('http://pdf.lu/2TSz')
+            message.channel.send('http://bd.rogueff.fr')
         }
 })
 

@@ -207,12 +207,6 @@ bot.on('message', message => {
         }
 })
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("clone") !== -1) {
-            message.channel.send('Farmez les clones en priorité absolue, jango fett arrive bientôt. Jugement le 12/05/2017')
-        }
-})
-
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("farm") !== -1) {

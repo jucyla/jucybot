@@ -99,6 +99,13 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("nord") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/17/1hmg.jpg')
+        }
+})
+
+
+bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("yoda") !== -1) {
             message.channel.send('https://zupimages.net/up/18/17/vys7.jpg')
         }

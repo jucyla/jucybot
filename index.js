@@ -187,6 +187,15 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("!zetalist") !== -1) {
+            message.channel.send('https://swgoh.gg/characters/zeta-abilities/')
+        }
+})
+
+
+
+
+bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("bdrff") !== -1) {
             message.channel.send('http://bd.rogueff.fr')
         }
@@ -342,7 +351,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("hall of shame") !== -1) {
-            message.channel.send('Karlvondraakhs, Sherveen, Mass, Mysticia, Papavau, Danick')
+            message.channel.send('Karlvondraakhs, Sherveen, Mass, Mysticia, Papavau 2X, Danick, Nico Fofo')
         }
 })
 

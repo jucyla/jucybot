@@ -104,6 +104,20 @@ bot.on('message', message => {
         }
 })
 
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("anakin") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/17/gcod.png')
+        }
+})
+
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("oignon") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/17/gcod.png')
+        }
+})
+
+
+
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("ou ca") !== -1) {

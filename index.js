@@ -99,6 +99,13 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("yoda") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/17/vys7.jpg')
+        }
+})
+
+
+bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("ou ca") !== -1) {
             message.channel.send('dans ton cul ! ' + message.author.username)
         }

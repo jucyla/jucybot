@@ -79,17 +79,17 @@ bot.on('message', message => {
 })
 
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("hein") !== -1) {
-            message.channel.send('<@!353277253183995904>')
-        }
-})
+//bot.on('message', message => {
+//        if (message.content.toLowerCase().indexOf("hein") !== -1) {
+//            message.channel.send('<@!353277253183995904>')
+//        }
+//})
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf('<@!353277253183995904>') !== -1) {
-            message.channel.send(':muscle:')
-        }
-})
+//bot.on('message', message => {
+//        if (message.content.toLowerCase().indexOf('<@!353277253183995904>') !== -1) {
+//            message.channel.send(':muscle:')
+//        }
+//})
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("rip cocisa") !== -1) {
@@ -105,11 +105,11 @@ bot.on('message', message => {
 })
 
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("yoda") !== -1) {
-            message.channel.send('https://zupimages.net/up/18/17/vys7.jpg')
-        }
-})
+//bot.on('message', message => {
+//        if (message.content.toLowerCase().indexOf("yoda") !== -1) {
+//            message.channel.send('https://zupimages.net/up/18/17/vys7.jpg')
+//        }
+//})
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("anakin") !== -1) {
@@ -246,8 +246,8 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("farm") !== -1) {
-            message.channel.send('Facile les clones en priorité absolue, jango fett arrive bientôt. Jugement le 12/05/2017')
+        if (message.content.toLowerCase().indexOf("clone") !== -1) {
+            message.channel.send('A farmer en priorité absolue, jango fett arrive bientôt. Jugement le 12/05/2017')
         }
 })
 
@@ -315,28 +315,28 @@ bot.on('message', message => {
 
 
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("trokpa") !== -1) {
-            message.channel.send(':muscle:')
-        }
-})
+//bot.on('message', message => {
+//        if (message.content.toLowerCase().indexOf("trokpa") !== -1) {
+//            message.channel.send(':muscle:')
+//        }
+//})
 
 
 
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("poum") !== -1) {
-            message.channel.send('https://m.youtube.com/watch?v=hSvUSYxueGg')
-        }
-})
+//bot.on('message', message => {
+//        if (message.content.toLowerCase().indexOf("poum") !== -1) {
+//            message.channel.send('https://m.youtube.com/watch?v=hSvUSYxueGg')
+//        }
+//})
 
 
 
-bot.on('message', message => {
-        if (message.content.toLowerCase().indexOf("boom") !== -1) {
-            message.channel.send('https://m.youtube.com/watch?v=hSvUSYxueGg')
-        }
-})
+//bot.on('message', message => {
+//        if (message.content.toLowerCase().indexOf("boom") !== -1) {
+//            message.channel.send('https://m.youtube.com/watch?v=hSvUSYxueGg')
+//        }
+//})
 
 
 
@@ -351,7 +351,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("hall of shame") !== -1) {
-            message.channel.send('Karlvondraakhs, Sherveen, Mass, Mysticia, Papavau 2X, Danick, Nico Fofo')
+            message.channel.send('Karlvondraakhs, Sherveen, Mass, Mysticia, Papavau 2X, Danick, Nico Fofo, MacFarmer, Drinko')
         }
 })
 

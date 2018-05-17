@@ -99,6 +99,19 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("comme meme") !== -1) {
+            message.channel.send('comme pépé aussi papavau')
+        }
+})
+
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("comme même") !== -1) {
+            message.channel.send('comme pépé aussi papavau')
+        }
+})
+
+
+bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("nord") !== -1) {
             message.channel.send('https://zupimages.net/up/18/17/1hmg.jpg')
         }

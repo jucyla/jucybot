@@ -13,7 +13,7 @@ const fs = require("fs");
 bot.on('ready', () => {
     bot.user.setPresence({game: {name: '!aide', type: 0}});
 });
-
+ 
 
 bot.on('message', message => {
   if (message.content === 'ping') {

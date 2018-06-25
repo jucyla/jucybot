@@ -97,6 +97,21 @@ bot.on('message', message => {
         }
 })
 
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("elimine") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/26/fyzp.jpg')
+        }
+})
+
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("elimination") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/26/fyzp.jpg')
+        }
+})
+
+
+
+
 
 bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("comme meme") !== -1) {

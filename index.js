@@ -104,11 +104,29 @@ bot.on('message', message => {
 })
 
 bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("élimine") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/26/fyzp.jpg')
+        }
+})
+
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("élimination") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/26/fyzp.jpg')
+        }
+})
+
+
+bot.on('message', message => {
         if (message.content.toLowerCase().indexOf("elimination") !== -1) {
             message.channel.send('https://zupimages.net/up/18/26/fyzp.jpg')
         }
 })
 
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("conseil rff") !== -1) {
+            message.channel.send('https://zupimages.net/up/18/26/ialj.jpg')
+        }
+})
 
 
 

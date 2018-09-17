@@ -44,6 +44,12 @@ bot.on('message', message => {
 })
 
 
+bot.on('message', message => {
+        if (message.content.toLowerCase().indexOf("f molag") !== -1) {
+            message.channel.send('$a 667419976')
+        }
+})
+
 
 
 
